@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ConvexHulk"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\;CMake Files\lib\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="executePolygonTests">
+				<Option output="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/executePolygonTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 executePolygonTests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="executePolygonTests/fast">
+				<Option output="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/executePolygonTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 executePolygonTests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="executeVertexTests">
+				<Option output="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/executeVertexTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 executeVertexTests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="executeVertexTests/fast">
+				<Option output="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/executeVertexTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 executeVertexTests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="executePointTests">
+				<Option output="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/executePointTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 executePointTests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="executePointTests/fast">
+				<Option output="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/executePointTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 executePointTests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ConvexHulk">
+				<Option output="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/ConvexHulk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConvexHulk"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ConvexHulk/fast">
+				<Option output="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/ConvexHulk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConvexHulk/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/lib/Point.h">
+			<Option target="executePolygonTests"/>
+			<Option target="executeVertexTests"/>
+			<Option target="executePointTests"/>
+			<Option target="ConvexHulk"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/lib/Polygon.h">
+			<Option target="executePolygonTests"/>
+			<Option target="executeVertexTests"/>
+			<Option target="executePointTests"/>
+			<Option target="ConvexHulk"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/lib/Vertex.h">
+			<Option target="executePolygonTests"/>
+			<Option target="executeVertexTests"/>
+			<Option target="executePointTests"/>
+			<Option target="ConvexHulk"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/lib/sfmlHelpers.h">
+			<Option target="ConvexHulk"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/main.cpp">
+			<Option target="ConvexHulk"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/tests/PointTests.cpp">
+			<Option target="executePointTests"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/tests/PolygonTests.cpp">
+			<Option target="executePolygonTests"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/tests/VertexTests.cpp">
+			<Option target="executeVertexTests"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/../../../../usr/local/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/../../../../usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/../../../../usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
