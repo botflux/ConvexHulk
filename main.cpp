@@ -19,6 +19,13 @@ int main() {
     auto window = createWindow();
     window->setActive();
 
+    auto polygon = Polygon();
+
+    auto firstVertex = polygon.addVertex(Point(100, 100));
+    auto secondVertex = polygon.addVertex(Point(150, 100), firstVertex);
+    auto thirdVertex = polygon.addVertex(Point(100, 150), secondVertex);
+    thirdVertex->setNextVertex(firstVertex);
+
     while (window->isOpen()) {
         sf::Event event;
 
@@ -29,7 +36,8 @@ int main() {
 
             window->clear(sf::Color(100, 149, 239));
 
-            drawSegment(window, Point(200, 200), Point(600, 600));
+//            drawSegment(window, Point(200, 200), Point(600, 600));
+            drawPolygon(window, polygon);
 
             window->display();
         }

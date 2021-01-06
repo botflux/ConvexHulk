@@ -18,7 +18,7 @@ void drawSegment (sf::RenderWindow * window, Point a, Point b) {
 }
 
 void drawPolygon (sf::RenderWindow * window, Polygon & polygon) {
-    if (polygon.hasPoints()) {
+    if (!polygon.hasPoints()) {
         return;
     }
 

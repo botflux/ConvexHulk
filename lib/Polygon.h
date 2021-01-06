@@ -24,6 +24,7 @@ public:
     Vertex * addVertex (Point point) {
         auto vertex = new Vertex(point);
         vertexReferences.push_back(vertex);
+        firstVertex = vertex;
         return vertex;
     }
     Vertex * addVertex (Point point, Vertex * previousVertex) {
