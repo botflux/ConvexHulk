@@ -71,15 +71,12 @@ TEST(convexHulkTests, PointsAreOrderedByAbscissa) {
 TEST(convexHulkTests, PopulatePolygonWithTheRightConvexHulk) {
     auto points = vector<Point> ();
 
-    points.emplace_back(400, 200);
-    points.emplace_back(420, 280);
-    points.emplace_back(430, 220);
-    points.emplace_back(450, 300);
-    points.emplace_back(455, 180);
-    points.emplace_back(460, 260);
-    points.emplace_back(462, 210);
-    points.emplace_back(464, 240);
-    points.emplace_back(500, 238);
+    points.emplace_back(200, 200);
+    points.emplace_back(300, 200);
+    points.emplace_back(330, 300);
+    points.emplace_back(500, 500);
+    points.emplace_back(550, 100);
+    points.emplace_back(560, 150);
 
     auto polygon = Polygon();
 
@@ -92,7 +89,7 @@ TEST(convexHulkTests, PopulatePolygonWithTheRightConvexHulk) {
 
     ASSERT_EQ(firstVertex->getPoint(), points[0]);
     ASSERT_EQ(secondVertex->getPoint(), points[4]);
-    ASSERT_EQ(thirdVertex->getPoint(), points[8]);
+    ASSERT_EQ(thirdVertex->getPoint(), points[5]);
     ASSERT_EQ(fourthVertex->getPoint(), points[3]);
 }
 

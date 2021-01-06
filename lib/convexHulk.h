@@ -56,23 +56,32 @@ void convexHulk (Polygon & polygon, vector<Point> & points) {
         auto firstVertexOfLines = get<0>(linesAtLeftOfPoint[0]);
         auto lastVertexOfLines = get<1>(linesAtLeftOfPoint[linesAtLeftOfPoint.size() - 1]);
 
-        for (auto line : linesAtLeftOfPoint) {
+        auto verticesToDelete = vector<Vertex *> ();
 
+        for (auto line : linesAtLeftOfPoint) {
             auto a = get<0>(line);
             auto b = get<1>(line);
 
             if (a->getPoint() != firstVertexOfLines->getPoint()) {
-                polygon.deleteVertex(a);
+                verticesToDelete.push_back(a);
             }
 
             if (b->getPoint() != lastVertexOfLines->getPoint()) {
-                polygon.deleteVertex(b);
+                verticesToDelete.push_back(b);
             }
-
-            polygon
-                .addVertex(point, firstVertexOfLines)
-                ->setNextVertex(lastVertexOfLines);
         }
+
+        auto ip = unique(verticesToDelete.begin(), verticesToDelete.end());
+        verticesToDelete.resize(distance(verticesToDelete.begin(), ip));
+
+
+        for (auto vertex : verticesToDelete) {
+            polygon.deleteVertex(vertex);
+        }
+
+        auto newVertex = polygon.addVertex(point, firstVertexOfLines);
+        newVertex->setNextVertex(lastVertexOfLines);
+        newVertex->getNextVertex()->setPreviousVertex(newVertex);
     }
 }
 
