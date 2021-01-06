@@ -37,6 +37,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="executeConvexHulkTests">
+				<Option output="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/executeConvexHulkTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 executeConvexHulkTests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="executeConvexHulkTests/fast">
+				<Option output="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/executeConvexHulkTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 executeConvexHulkTests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="executePolygonTests">
 				<Option output="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/executePolygonTests" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug"/>
@@ -207,18 +249,28 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/lib/Point.h">
+			<Option target="executeConvexHulkTests"/>
 			<Option target="executePolygonTests"/>
 			<Option target="executeVertexTests"/>
 			<Option target="executePointTests"/>
 			<Option target="ConvexHulk"/>
 		</Unit>
 		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/lib/Polygon.h">
+			<Option target="executeConvexHulkTests"/>
 			<Option target="executePolygonTests"/>
 			<Option target="executeVertexTests"/>
 			<Option target="executePointTests"/>
 			<Option target="ConvexHulk"/>
 		</Unit>
 		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/lib/Vertex.h">
+			<Option target="executeConvexHulkTests"/>
+			<Option target="executePolygonTests"/>
+			<Option target="executeVertexTests"/>
+			<Option target="executePointTests"/>
+			<Option target="ConvexHulk"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/lib/convexHulk.h">
+			<Option target="executeConvexHulkTests"/>
 			<Option target="executePolygonTests"/>
 			<Option target="executeVertexTests"/>
 			<Option target="executePointTests"/>
@@ -238,6 +290,9 @@
 		</Unit>
 		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/tests/VertexTests.cpp">
 			<Option target="executeVertexTests"/>
+		</Unit>
+		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/tests/convexHulkTests.cpp">
+			<Option target="executeConvexHulkTests"/>
 		</Unit>
 		<Unit filename="/Users/v-mendele/CLionProjects/ConvexHulk/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

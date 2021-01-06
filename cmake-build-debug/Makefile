@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named executeConvexHulkTests
+
+# Build rule for target.
+executeConvexHulkTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executeConvexHulkTests
+.PHONY : executeConvexHulkTests
+
+# fast build rule for target.
+executeConvexHulkTests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executeConvexHulkTests.dir/build.make CMakeFiles/executeConvexHulkTests.dir/build
+.PHONY : executeConvexHulkTests/fast
+
+#=============================================================================
 # Target rules for targets named executePolygonTests
 
 # Build rule for target.
@@ -290,6 +303,33 @@ tests/VertexTests.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/executeVertexTests.dir/build.make CMakeFiles/executeVertexTests.dir/tests/VertexTests.cpp.s
 .PHONY : tests/VertexTests.cpp.s
 
+tests/convexHulkTests.o: tests/convexHulkTests.cpp.o
+
+.PHONY : tests/convexHulkTests.o
+
+# target to build an object file
+tests/convexHulkTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executeConvexHulkTests.dir/build.make CMakeFiles/executeConvexHulkTests.dir/tests/convexHulkTests.cpp.o
+.PHONY : tests/convexHulkTests.cpp.o
+
+tests/convexHulkTests.i: tests/convexHulkTests.cpp.i
+
+.PHONY : tests/convexHulkTests.i
+
+# target to preprocess a source file
+tests/convexHulkTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executeConvexHulkTests.dir/build.make CMakeFiles/executeConvexHulkTests.dir/tests/convexHulkTests.cpp.i
+.PHONY : tests/convexHulkTests.cpp.i
+
+tests/convexHulkTests.s: tests/convexHulkTests.cpp.s
+
+.PHONY : tests/convexHulkTests.s
+
+# target to generate assembly for a file
+tests/convexHulkTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executeConvexHulkTests.dir/build.make CMakeFiles/executeConvexHulkTests.dir/tests/convexHulkTests.cpp.s
+.PHONY : tests/convexHulkTests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -299,6 +339,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ConvexHulk"
+	@echo "... executeConvexHulkTests"
 	@echo "... executePointTests"
 	@echo "... executePolygonTests"
 	@echo "... executeVertexTests"
@@ -314,6 +355,9 @@ help:
 	@echo "... tests/VertexTests.o"
 	@echo "... tests/VertexTests.i"
 	@echo "... tests/VertexTests.s"
+	@echo "... tests/convexHulkTests.o"
+	@echo "... tests/convexHulkTests.i"
+	@echo "... tests/convexHulkTests.s"
 .PHONY : help
 
 

@@ -4,6 +4,7 @@
 CMakeFiles/ConvexHulk.dir/main.cpp.o: ../lib/Point.h
 CMakeFiles/ConvexHulk.dir/main.cpp.o: ../lib/Polygon.h
 CMakeFiles/ConvexHulk.dir/main.cpp.o: ../lib/Vertex.h
+CMakeFiles/ConvexHulk.dir/main.cpp.o: ../lib/convexHulk.h
 CMakeFiles/ConvexHulk.dir/main.cpp.o: ../lib/sfmlHelpers.h
 CMakeFiles/ConvexHulk.dir/main.cpp.o: ../main.cpp
 CMakeFiles/ConvexHulk.dir/main.cpp.o: /usr/local/include/SFML/Config.hpp

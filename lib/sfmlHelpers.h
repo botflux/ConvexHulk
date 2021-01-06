@@ -31,4 +31,16 @@ void drawPolygon (sf::RenderWindow * window, Polygon & polygon) {
     } while (currentVertex != polygon.getFirstVertex());
 }
 
+void drawPoint (sf::RenderWindow * window, Point a) {
+    auto vertex = sf::Vertex(sf::Vector2f(a.x, a.y), sf::Color::Red);
+
+    window->draw(&vertex, 1, sf::Points);
+}
+
+void drawPoints (sf::RenderWindow * window, vector<Point> & points) {
+    for (auto point : points) {
+        drawPoint(window, point);
+    }
+}
+
 #endif //CONVEXHULK_SFMLHELPERS_H

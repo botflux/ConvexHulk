@@ -4,6 +4,7 @@
 #include "lib/Vertex.h"
 #include "lib/Polygon.h"
 #include "lib/sfmlHelpers.h"
+#include "lib/convexHulk.h"
 
 using namespace std;
 
@@ -19,12 +20,21 @@ int main() {
     auto window = createWindow();
     window->setActive();
 
+    auto points = vector<Point> ();
+
+    points.emplace_back(400, 200);
+    points.emplace_back(420, 280);
+    points.emplace_back(430, 220);
+    points.emplace_back(450, 300);
+    points.emplace_back(455, 180);
+    points.emplace_back(460, 260);
+    points.emplace_back(462, 210);
+    points.emplace_back(464, 240);
+    points.emplace_back(500, 238);
+
     auto polygon = Polygon();
 
-    auto firstVertex = polygon.addVertex(Point(100, 100));
-    auto secondVertex = polygon.addVertex(Point(150, 100), firstVertex);
-    auto thirdVertex = polygon.addVertex(Point(100, 150), secondVertex);
-    thirdVertex->setNextVertex(firstVertex);
+    convexHulk(polygon, points);
 
     while (window->isOpen()) {
         sf::Event event;
@@ -38,6 +48,7 @@ int main() {
 
 //            drawSegment(window, Point(200, 200), Point(600, 600));
             drawPolygon(window, polygon);
+            drawPoints(window, points);
 
             window->display();
         }

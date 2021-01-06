@@ -24,7 +24,11 @@ public:
     Vertex * addVertex (Point point) {
         auto vertex = new Vertex(point);
         vertexReferences.push_back(vertex);
-        firstVertex = vertex;
+
+        if (! hasPoints()) {
+            firstVertex = vertex;
+        }
+
         return vertex;
     }
     Vertex * addVertex (Point point, Vertex * previousVertex) {
@@ -35,11 +39,11 @@ public:
     }
     void deleteVertex (Vertex * vertexToDelete) {
         // Remove vertexToDelete of vertexReferences.
-        for (auto it = begin(vertexReferences); it != end(vertexReferences); ++it) {
-            if (vertexToDelete == (*it)) {
-                vertexReferences.erase(it);
-            }
-        }
+//        for (auto it = begin(vertexReferences); it != end(vertexReferences); ++it) {
+//            if (vertexToDelete == (*it)) {
+//                vertexReferences.erase(it);
+//            }
+//        }
 
         if (vertexToDelete->hasPreviousVertex()) {
             vertexToDelete->getPreviousVertex()->setNextVertex(vertexToDelete->getNextVertex());
@@ -48,8 +52,6 @@ public:
         if (vertexToDelete->hasNextVertex()) {
             vertexToDelete->getNextVertex()->setPreviousVertex(vertexToDelete->getPreviousVertex());
         }
-
-        delete vertexToDelete;
     }
     ~Polygon() {
         for (auto vertexReference : vertexReferences) {

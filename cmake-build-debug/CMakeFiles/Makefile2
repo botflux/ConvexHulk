@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = /Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/executeConvexHulkTests.dir/all
 all: CMakeFiles/executePolygonTests.dir/all
 all: CMakeFiles/executeVertexTests.dir/all
 all: CMakeFiles/executePointTests.dir/all
@@ -89,6 +90,7 @@ preinstall: tests/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/executeConvexHulkTests.dir/clean
 clean: CMakeFiles/executePolygonTests.dir/clean
 clean: CMakeFiles/executeVertexTests.dir/clean
 clean: CMakeFiles/executePointTests.dir/clean
@@ -135,13 +137,40 @@ tests/clean:
 .PHONY : tests/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/executeConvexHulkTests.dir
+
+# All Build rule for target.
+CMakeFiles/executeConvexHulkTests.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executeConvexHulkTests.dir/build.make CMakeFiles/executeConvexHulkTests.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executeConvexHulkTests.dir/build.make CMakeFiles/executeConvexHulkTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target executeConvexHulkTests"
+.PHONY : CMakeFiles/executeConvexHulkTests.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/executeConvexHulkTests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/executeConvexHulkTests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/executeConvexHulkTests.dir/rule
+
+# Convenience name for target.
+executeConvexHulkTests: CMakeFiles/executeConvexHulkTests.dir/rule
+
+.PHONY : executeConvexHulkTests
+
+# clean rule for target.
+CMakeFiles/executeConvexHulkTests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executeConvexHulkTests.dir/build.make CMakeFiles/executeConvexHulkTests.dir/clean
+.PHONY : CMakeFiles/executeConvexHulkTests.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/executePolygonTests.dir
 
 # All Build rule for target.
 CMakeFiles/executePolygonTests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/executePolygonTests.dir/build.make CMakeFiles/executePolygonTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/executePolygonTests.dir/build.make CMakeFiles/executePolygonTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target executePolygonTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target executePolygonTests"
 .PHONY : CMakeFiles/executePolygonTests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -168,7 +197,7 @@ CMakeFiles/executePolygonTests.dir/clean:
 CMakeFiles/executeVertexTests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/executeVertexTests.dir/build.make CMakeFiles/executeVertexTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/executeVertexTests.dir/build.make CMakeFiles/executeVertexTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target executeVertexTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target executeVertexTests"
 .PHONY : CMakeFiles/executeVertexTests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -195,7 +224,7 @@ CMakeFiles/executeVertexTests.dir/clean:
 CMakeFiles/executePointTests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/executePointTests.dir/build.make CMakeFiles/executePointTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/executePointTests.dir/build.make CMakeFiles/executePointTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target executePointTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target executePointTests"
 .PHONY : CMakeFiles/executePointTests.dir/all
 
 # Build rule for subdir invocation for target.

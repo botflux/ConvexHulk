@@ -20,6 +20,16 @@ Vertex.h
 Point.h
 /Users/v-mendele/CLionProjects/ConvexHulk/lib/Point.h
 
+/Users/v-mendele/CLionProjects/ConvexHulk/lib/convexHulk.h
+Polygon.h
+/Users/v-mendele/CLionProjects/ConvexHulk/lib/Polygon.h
+iostream
+-
+Vertex.h
+/Users/v-mendele/CLionProjects/ConvexHulk/lib/Vertex.h
+Point.h
+/Users/v-mendele/CLionProjects/ConvexHulk/lib/Point.h
+
 /Users/v-mendele/CLionProjects/ConvexHulk/lib/sfmlHelpers.h
 SFML/Graphics.hpp
 -
@@ -39,6 +49,8 @@ lib/Polygon.h
 /Users/v-mendele/CLionProjects/ConvexHulk/lib/Polygon.h
 lib/sfmlHelpers.h
 /Users/v-mendele/CLionProjects/ConvexHulk/lib/sfmlHelpers.h
+lib/convexHulk.h
+/Users/v-mendele/CLionProjects/ConvexHulk/lib/convexHulk.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

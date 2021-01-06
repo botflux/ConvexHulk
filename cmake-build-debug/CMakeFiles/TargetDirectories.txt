@@ -1,5 +1,6 @@
 /Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles/executeConvexHulkTests.dir
 /Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles/executePolygonTests.dir
 /Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles/executeVertexTests.dir
 /Users/v-mendele/CLionProjects/ConvexHulk/cmake-build-debug/CMakeFiles/executePointTests.dir
