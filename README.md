@@ -1,4 +1,4 @@
-# Convex Hulk
+# Convex Hull
 
 ## Build
 
